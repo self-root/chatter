@@ -13,8 +13,9 @@ CONFIG += c++17
 SOURCES += \
     socketconnection.cpp
 
+
 HEADERS += \
-    chattercore_global.h
+    chattercore_global.h \
     socketconnection.h
 
 INCLUDEPATH += $$PWD/include
