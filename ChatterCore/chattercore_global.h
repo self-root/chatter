@@ -1,0 +1,12 @@
+#ifndef CHATTERCORE_GLOBAL_H
+#define CHATTERCORE_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CHATTERCORE_LIBRARY)
+#  define CHATCORE_EXPORT Q_DECL_EXPORT
+#else
+#  define CHATTERCORE_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CHATTERCORE_GLOBAL_H
